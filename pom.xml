@@ -20,6 +20,8 @@
         <spring-cloud.version>2020.0.0</spring-cloud.version>
         <testcontainers.version>1.15.2</testcontainers.version>
         <testcontainers-spring-boot.version>2.0.5</testcontainers-spring-boot.version>
+        <rsocket-broker-container.version>1.0.1</rsocket-broker-container.version>
+        <junit5.version>5.7.1</junit5.version>
     </properties>
 
     <name>Alibaba embedded RSocket Broker for Spring Boot testing</name>
@@ -66,7 +68,7 @@
         <dependency>
             <groupId>com.alibaba.rsocket</groupId>
             <artifactId>testcontainers-rsocket-broker-module</artifactId>
-            <version>1.0.1</version>
+            <version>${rsocket-broker-container.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -102,7 +104,7 @@
             <dependency>
                 <groupId>org.junit</groupId>
                 <artifactId>junit-bom</artifactId>
-                <version>5.7.1</version>
+                <version>${junit5.version}</version>
                 <scope>import</scope>
                 <type>pom</type>
             </dependency>
