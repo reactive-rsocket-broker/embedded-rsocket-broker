@@ -1,0 +1,26 @@
+{
+  "groups": [
+  ],
+  "properties": [
+    {
+      "name": "embedded.rsocket.enabled",
+      "type": "java.lang.Boolean",
+      "defaultValue": "true"
+    }
+  ],
+  "hints": [
+    {
+      "name": "embedded.rsocket.enabled",
+      "values": [
+        {
+          "value": "true",
+          "description": "Enables configuration of RSocket Broker on startup."
+        },
+        {
+          "value": "false",
+          "description": "Disabled configuration of RSocket Broker on startup."
+        }
+      ]
+    }
+  ]
+}
