@@ -24,7 +24,7 @@
 
     <name>Alibaba embedded RSocket Broker for Spring Boot testing</name>
     <description>Alibaba embedded RSocket Broker for Spring Boot testing</description>
-    <url>https://github.com/alibaba-rsocket-broker/testcontainers-rsocket-broker-module</url>
+    <url>https://github.com/alibaba-rsocket-broker/embedded-rsocket-broker</url>
     <inceptionYear>2021</inceptionYear>
     <licenses>
         <license>
@@ -46,15 +46,15 @@
     </developers>
 
     <scm>
-        <connection>scm:git:git@github.com:alibaba-rsocket-broker/testcontainers-rsocket-broker-module.git</connection>
-        <developerConnection>scm:git:git@github.com:alibaba-rsocket-broker/testcontainers-rsocket-broker-module.git</developerConnection>
-        <url>https://github.com/alibaba-rsocket-broker/testcontainers-rsocket-broker-module</url>
+        <connection>scm:git:git@github.com:alibaba-rsocket-broker/embedded-rsocket-broker.git</connection>
+        <developerConnection>scm:git:git@github.com:alibaba-rsocket-broker/embedded-rsocket-broker.git</developerConnection>
+        <url>https://github.com/alibaba-rsocket-broker/embedded-rsocket-broker</url>
         <tag>HEAD</tag>
     </scm>
 
     <issueManagement>
         <system>Github</system>
-        <url>https://github.com/alibaba-rsocket-broker/testcontainers-rsocket-broker-module/issues</url>
+        <url>https://github.com/alibaba-rsocket-broker/embedded-rsocket-broker/issues</url>
     </issueManagement>
 
     <dependencies>
